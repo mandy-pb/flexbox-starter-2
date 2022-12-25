@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #1f147289;
   height: 100%;
   width: 100%;
 }
@@ -111,13 +111,11 @@ body {
 
 header,
 footer {
-  background-color: #222;
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
   height: 250px;
   width: 100%;
 }
@@ -139,15 +137,44 @@ justify-content:space-between;
 }
 
 .flex-items {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.666);
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.5em;
   width: 30%;
-  height: 200px;
+  height: 270px;
   display:flex;
   justify-content:center;
   align-items:center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#div-1,
+#div-2 {
+    border-right:5px dotted pink;
+    padding-right:25px;
+}
+
+h1 {
+    font-family: 'Andika', sans-serif;
+    font-size:60px;
+}
+
+p {
+    font-size:35px;
+    border-bottom: 2px solid rgb(54, 255, 8);
+    padding-bottom:30px;
+    font-family: 'Shadows Into Light', cursive;
+    color:#222;
+}
+
+footer{
+    margin-top:30px;
+    border-top:2px solid rgb(54, 255, 8);
+}
+
+i {
+    margin-right:30px;
+    color:#222;
 }
 
 /* ==========================================================================
